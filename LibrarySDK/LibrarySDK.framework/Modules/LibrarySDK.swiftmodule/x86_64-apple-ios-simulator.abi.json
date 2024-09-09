@@ -1,0 +1,147 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LibrarySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LibraryService",
+        "printedName": "LibraryService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LibraryService",
+                "printedName": "LibrarySDK.LibraryService",
+                "usr": "s:10LibrarySDK0A7ServiceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LibrarySDK0A7ServiceC6sharedACvpZ",
+            "mangledName": "$s10LibrarySDK0A7ServiceC6sharedACvpZ",
+            "moduleName": "LibrarySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LibraryService",
+                    "printedName": "LibrarySDK.LibraryService",
+                    "usr": "s:10LibrarySDK0A7ServiceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LibrarySDK0A7ServiceC6sharedACvgZ",
+                "mangledName": "$s10LibrarySDK0A7ServiceC6sharedACvgZ",
+                "moduleName": "LibrarySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendString",
+            "printedName": "sendString(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LibrarySDK0A7ServiceC10sendString_10completionySS_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s10LibrarySDK0A7ServiceC10sendString_10completionySS_ys6ResultOySbs5Error_pGctF",
+            "moduleName": "LibrarySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LibrarySDK0A7ServiceC",
+        "mangledName": "$s10LibrarySDK0A7ServiceC",
+        "moduleName": "LibrarySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

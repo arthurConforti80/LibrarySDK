@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.8.1)
+  - LibrarySDK (1.0.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - Alamofire (= 5.8.1)
+  - LibrarySDK (from `../LibrarySDK`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  LibrarySDK:
+    :path: "../LibrarySDK"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  LibrarySDK: c27f8af7fa2de7607f9c70a3c43755ab042e97cf
+
+PODFILE CHECKSUM: 88414c5a5d6e49bc46e10f3400bb893c2df57991
+
+COCOAPODS: 1.15.0

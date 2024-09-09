@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ProjectSDK-ProjectSDKUITests/Pods-ProjectSDK-ProjectSDKUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${PODS_ROOT}/../../LibrarySDK/LibrarySDK.framework
