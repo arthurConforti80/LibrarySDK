@@ -7,16 +7,12 @@ target 'ProjectSDK' do
   pod 'Alamofire', '5.8.1'	
   pod 'LibrarySDK', :path => '../LibrarySDK'
 
-  # Pods for ProjectSDK
-
   target 'ProjectSDKTests' do
     inherit! :search_paths
-    pod 'LibrarySDK', :path => '../LibrarySDK' 
-    # Pods for testing
+    pod 'LibrarySDK', :path => '../LibrarySDK'
   end
 
   target 'ProjectSDKUITests' do
-    # Pods for testing
   end
 
 end

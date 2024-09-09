@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = 'A simple SDK for sending strings to a backend.'
   
   s.description  = <<-DESC
-                   LibrarySDK is a lightweight Swift library for sending string data to a backend API.
+                   LibrarySDK Swift library for sending string data to a backend API.
                    DESC
 
   s.homepage     = 'https://example.com/LibrarySDK'
